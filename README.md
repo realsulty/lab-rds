@@ -1,18 +1,14 @@
-Challenge : 
+## Lab 162 Challenge : Launch an Amazon RDS DB instance using either Amazon Aurora Provisioned DB or MySQL database engines
+![rules](files/RDS.jpeg)
 
 
 ## 1. Adding a new rule to the security group allow connecting to the database, since the default for security groups is to deny access: 
 ![rules](files/rules.png)
-Connect to the the database through command line :
->  mysql -h main-instance-1.cxdxyvpa7bho.us-west-2.rds.amazonaws.com -P 3306 -u admin -p
+### connect to a DB instance using the MySQL command-line client :
+>  mysql -h main-instance-1.123456789.us-west-2.rds.amazonaws.com -P 3306 -u admin -p
 
 
 ## 2. Creating a new database to hold the table :
-
-
-
-
-
 ```
 CARETA DATABASE aws;
 
